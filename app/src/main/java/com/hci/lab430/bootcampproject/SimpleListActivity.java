@@ -24,7 +24,7 @@ public class SimpleListActivity extends Activity {
         setContentView(R.layout.activity_listview);
 
         ListView listView = (ListView)findViewById(R.id.listView);
-        setTwoItemList(listView);
+        setOneItemList(listView);
     }
 
     private void setOneItemList(ListView listView) {
